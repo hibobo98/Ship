@@ -12,7 +12,7 @@ RUN echo 'irteam ALL=(ALL) NOPASSWD:ALL' | tee -a /etc/sudoers
 RUN chmod -w /etc/sudoers
 RUN sudo apt-get install -y libgl1-mesa-glx
 RUN sudo apt-get install -y python3-pip
-RUN sudo apt-get install ffmpeg
+RUN sudo apt-get install -y ffmpeg
 
 # Install Packages
 RUN pip install ffmpeg-python

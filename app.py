@@ -13,7 +13,7 @@ from ultralytics import YOLO
 object_name 변수
  : 맨 밑에 makdowon과 Model에서 사용합니다. 
 '''
-object_name = "Ship"
+object_name = "WindMills"
 
 # yolo 실행 
 def run_yolo(input_video_url):
